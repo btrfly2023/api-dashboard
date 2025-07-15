@@ -3,7 +3,8 @@ name: Update API Data
 on:
   schedule:
     # Runs every 6 hours (adjust as needed)
-    - cron: '0 */6 * * *'
+    # Runs every minute (adjust as needed)
+    - cron: '* * * * *'
   # Also allows manual triggering
   workflow_dispatch:
 
